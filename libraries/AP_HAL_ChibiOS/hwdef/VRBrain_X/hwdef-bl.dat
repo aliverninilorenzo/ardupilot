@@ -1,5 +1,8 @@
 # hw definition file for processing by chibios_hwdef.py
-# for the HolybroV6X hardware
+# for the Laser Navigation - VRBrainX hardware
+
+# include ../Pixhawk6X/hwdef-bl.dat
+
 
 # MCU class and specific type
 MCU STM32H7xx STM32H743xx
