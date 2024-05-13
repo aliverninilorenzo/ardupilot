@@ -332,8 +332,9 @@ define HAL_WITH_RAMTRON 1
 
 # INA226 battery monitor - PM1 on I2C1 - PM2 on I2C2
 define HAL_BATTMON_INA2XX_BUS 1
-define HAL_BATTMON_INA2XX_ADDR 0
+define HAL_BATTMON_INA2XX_ADDR 69 # A0 <-> VS, A1 <-> VS
 define HAL_BATT_MONITOR_DEFAULT 21
+define BATT_SHUNT 0.1
 
 # allow to have have a dedicated safety switch pin
 define HAL_HAVE_SAFETY_SWITCH 1
